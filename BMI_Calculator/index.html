@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="heading"><span class="color">B</span>ody <span class="color">M</span>ass <span class="color">I</span>ndex Calculator</h1>
+    <div class="container">
+        <input type="number" name="age" id="age" max="65" min="18">
+        <label for="age">Age</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input type="number" name="height" id="height">
+        <label for="height">Height (cm)</label>
+        <input type="number" name="weight" id="weight">
+        <label for="weight">Weight (kg)</label><br><br>
+    <div class="button">
+        <button id="btn">Submit</button>
+    </div>
+    </div>
+    <div class="result">
+        <h3 id="output"></h3>
+        <p id="bmi">BMI: <span id="bmi-number"></span> </p>
+    </div>
+</body>
+</html>

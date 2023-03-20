@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #F1F2B5, #eef2f3);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 150px auto;
+}
+#heading{
+    margin-bottom: 30px;
+}
+.color{
+    color: #0096FF;
+}
+.container{
+    width: 50vw;
+    height: 35vh;
+    background-color: #Ffffff;
+    box-shadow: 10px 10px 40px 0 #ddd;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #289df6;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+input{
+    width: 17%;
+    height: 4vh;
+    border: none;
+    border-radius: 9px;
+    background-color: #ADD8E6;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+input[type=radio]{
+    /* background-color: blue; */
+    height: 1.2rem;
+    width: 1.4rem;
+    margin-right: 0.5rem;
+}
+form label{
+    padding-right: 10px;
+    font-size: 18px;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+#btn{
+    color: white;
+    background-color: #0096FF;
+    padding: 10px;
+    width: 35%;
+    border: none;
+    border-radius: 9px;
+}
+.result{
+    margin: 20px;
+}
+#output{
+    padding: 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
